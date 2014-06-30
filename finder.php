@@ -3,7 +3,7 @@
 <input type="text" name="s" id="s" value="<?php echo htmlspecialchars($_REQUEST['s'])?>"><br>
 <label for="mask">Mask</label>
 <input type="text" name="mask" id="mask" value="<?php echo isset($_REQUEST['mask'])?htmlspecialchars($_REQUEST['mask']):'.php$'?>"><br>
-<input type="submit" name="send" value="Отправить">
+<input type="submit" name="send" value="Send">
 </form>
 <?php
 if( isset($_REQUEST['s']) and !empty($_REQUEST['s']) ){
